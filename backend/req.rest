@@ -1,0 +1,27 @@
+put http://localhost:3000/edit-note/2
+Content-Type: application/json
+
+{
+    "title": " Akun Budi",
+    "content": "Budi90@gmail Pass: 123456"
+    
+}
+
+###
+
+DELETE http://localhost:3000/hapus-note/1
+Content-Type: application/json
+
+###
+
+GET http://localhost:3000/notes
+
+###
+
+POST http://localhost:3000/tambah-note
+Content-Type: application/json
+
+{
+    "title": " Akun Budi",
+    "content": "Budi90@gmail Pass: 1234567"    
+}
